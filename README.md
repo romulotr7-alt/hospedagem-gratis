@@ -1,186 +1,547 @@
-# Hospedagens grátis
-
-## Com suporte ao PHP, ao MySQL e cia
-
-Os melhores serviços free que conheço. Se conhece mais algum que não foi listado, por favor me mande um Issue para que eu adicione na lista.
-
-## Atualização
-Depois de alguns testes, atualmente a melhor hospedagem free que conheço é o Heroku, que inclkusive usa git para enviar os arquivos para o servidor, que é eficiente e importante em nossos dias.
-
-## Justificativa
-
-Como sempre me deu muito trabalho encontrar uma boa hospedagem free com suporte ao PHP e com MySQL, então resolvi criar este repositório para compartilhar. Sem contar que geralmente tem uma baixa performance. Isso normalmente nos força a usar seus planos comerciais.
-
-## Alerta
-
-As contas free servem apenas para testes e iniciar seu aprendizado, pois todas as que conheço tem diversas restrições e limitações que impedem de se criar um projeto para se colocar em produção.
-
-
-### Freehostia
-
-Meu preferido - https://www.freehostia.com/
-
-Bom hosting free com suporte ao PHP, MySQL e cia
-
-Pelo gerenciador de arquivos do site podemos enviar arquivos, inclusive compactados, com até 2MB e ele também descompacta
-
-Para arquivos e pastas maiores criar uma conta de FTP. Minha sugestão é usar o Filezilla com SFTP
-
-- Requer que você tenha um domínio para criar e usar a conta (Dica: É bom ter um domínio para testes e estas hospedagens)
-- PHP - várias versões, inclusive 7.4 e 8. Configurações no php.ini
-- MySQL - 1 banco com até 10MB, com phpMyAdmin e até acesso remoto
-- Abrigar até 5 domínios com gerenciamento
-- 250MB Disk Space
-- 6GB Monthly Traffic
-- 3 E-mail Accounts e com webmail
-- Instalador com 1 clique: Joomla, WordPress, Laravel e outros
-- Diretório web - /home/www
-
-
-### Freehostingeu
-
-Este foi indicação do colega Jorge Miguel do grupo Laravel Brasil do Facebook
-
-https://www.freehostingeu.com/
-
-A vantagem deste é que nem domínio ele exige. Você recebe um subdomínio. Veja um que tenho lá: http://ribafs.eu3.org/
-
-Recursos
-
-- PHP com MySQL
-- Instalação com 1 clique do Joomla, Wordpress, e outros
-- Outros recursos. Confira 
-
-
-### Cloudaccess
-
-Se for free para hospedar um site com Joomla este é o meu preferido
-
-Este é dedicado e especializado nos CMS Joomla e Wordpress
-
-Vocẽ cria a conta e já recebe uma conta e site com o CMS instalado e pronto para usar
-
-Free por 30 dias. Caso queira pode renovar. Eles avisam por e-mail
-
-https://www.cloudaccess.net/joomla/managed-hosting.html
-
-https://www.cloudaccess.net/wordpress/managed-hosting.html
-
-Máquina Virtual com bons recursos, espaço de 500MB e uma IDE web para administração do projeto
-
-
-### Heroku
-
-https://www.heroku.com/
-
-Este exige conhecimento de git
-
-Heroku runs your app in lightweight, isolated Linux containers called "dynos." The platform offers different dyno types to help you get the best results for your type of app.
-
-Plano free:
-
-- Aplicações não comerciais
-- Projetos pessoais
-- 512MB
-- Custom domain - podemos hospedar lá nosso domínio pessoal
-
-O deploy é feito com git e docker
-
-Uma boa opção de SGBD free é o PostgreSQL ou o SQLite, que pra valer não é um SGBD mas quebra alguns galhos
-
-
-## Byethost
-
-Este usei muito pouco, mas quando usei funcionou
-
-https://byet.host/free-hosting/
-
-Main FeaturesPHP & MySQL included with every free hosting plan
-
-    1000 MB (one gigabyte!) Disk Space
-    FTP account and File Manager
-    Control Panel
-    PHP
-    MySQL databases & PHP Support
-    Free tech support
-    Addon domain, Parked Domains, Sub-Domains
-    Free Community Access (Forums)
-    Clustered Servers
-    No ads!
-    Complete Features
-    Account Specification
-
-
-## 000webhost
-
-Eu tive tantos problemas com este que não vou citar aqui nem indicar, mas pode te servir, como chegou a me servir
-
-
-## Sites estáticos
-
-Estes são sites que usam apenas HTML, CSS e Javascript. Nada de PHP nem MySQL
-
-
-### Github Pages - https://github.com
-
-Este é o meu preferido para sites estáticos. Meu site está com ele - https://ribamar.net.br
-
-Criar um repositório e usá-lo para abrigar um site em HTML
-
-Existem várias outras alternativas, como
-
-
-### 21 opções de hosting free para sites com HTML estático
-
-https://devandgear.com/blog/free-hosting-static-website/
-
-
-### 10 opções
-
-https://graygrids.com/free-static-html-hosting-providers/
-
-
-## Domínio free
-
-Aaproveitando temos também uma opção de domínio free. Não é aceito em toda hospedagem mas pode ser vir em algumas.
-
-https://www.freenom.com/
-
-Freenom World is a fast and anonymous Public DNS resolver
-
-https://my.freenom.com/clientarea.php?action=domaindetails
-
-Seus nameserver são
-
-80.80.80.80
-80.80.81.81
-
-
-## Domínios comerciais
-
-Caso queira contratar um domínio pago a minha sugestão é o registro.br. Porque? 
-
-Lembrando: não ganho nada do registro.br. Eles nem sabem que existe. Aqui meu compromisso é apenas o de prestar uma boa informação, que me serviu bem.
-
-Eles cobram geralmente a mesma taxa anual a cada ano. Diferente de muitas hospedagens que quando você vai renovar ela cobra o dobro ou mais do que você pagou no primeiro ano.
-
-Outra grande, enorme vantagem é que você mesmo gerencia tudo do seu domínio: nameservers, registros, etc na administração web do registro.br. Não precisará ficar pedindo ao suporte da hospedagem que faça por você e esperar dias para que façam. É verdade que isso exige mais conhecimento mas isso é algo que precisamos ter em nossa área, não podemos ficar dependendo de outros.
-
-Gosto do registro.br principalmente por dois motivos: quando for renovar o domínio não terá a horrível surpresa de pagar o dobro ou até mais e outra que agiliza muito o gerenciamento domínio, que é a interface de administração deles, que te oferece todos os recursos que precisamos para nossos domínios, que são os nameservers e os registros. Você não irá perder tempo pedindo que o suporte faça isso por você e ter que esperar pela nada ágil resposta, como acontece com alguns. Eu tenho um domínio numa destas e estarei abandonando, pois a renovação será 70, mais que o dobro.
-
-## Explicando um pouco
-
-Um domínio é um apelido para um IP que facilita memorizar
-
-- Primeiro contratamos um serviço, como o registro.br
-- Depois configuramos os dados recebidos do registro.br numa hospedagem. Exemplo: Digital Ocean
-- Então aguardamos um certo tempo para que o domínio propague (que pode variar de minutos até a horas  e até 3 dias)
-
-
-## Ferramentas para checar a proapgação do DNS
-
-Mostra em que regiões já propagou e também pelos registros do DNS
-
-https://www.whatsmydns.net/
-
-https://www.intodns.com/
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Estudo - Revisão de Conteúdos</title>
+    <style>
+        :root {
+            --matematica: #3498db;
+            --portugues: #e74c3c;
+            --ciencias: #2ecc71;
+            --destaque: #f1c40f;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--matematica), var(--portugues), var(--ciencias));
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        nav {
+            background-color: white;
+            padding: 1rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .nav-container {
+            display: flex;
+            justify-content: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .nav-btn {
+            padding: 0.8rem 1.5rem;
+            margin: 0 0.5rem;
+            border: none;
+            border-radius: 50px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        
+        .nav-btn.matematica {
+            background-color: var(--matematica);
+            color: white;
+        }
+        
+        .nav-btn.portugues {
+            background-color: var(--portugues);
+            color: white;
+        }
+        
+        .nav-btn.ciencias {
+            background-color: var(--ciencias);
+            color: white;
+        }
+        
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        
+        .materia-section {
+            display: none;
+            background-color: white;
+            border-radius: 10px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .materia-section.active {
+            display: block;
+            animation: fadeIn 0.5s ease;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .materia-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid;
+        }
+        
+        .materia-matematica .materia-header {
+            border-color: var(--matematica);
+        }
+        
+        .materia-portugues .materia-header {
+            border-color: var(--portugues);
+        }
+        
+        .materia-ciencias .materia-header {
+            border-color: var(--ciencias);
+        }
+        
+        .materia-icon {
+            font-size: 2rem;
+            margin-right: 1rem;
+        }
+        
+        .materia-title {
+            font-size: 1.8rem;
+        }
+        
+        .topics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .topic-card {
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            padding: 1.5rem;
+            transition: all 0.3s ease;
+            border-left: 4px solid;
+        }
+        
+        .topic-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+        }
+        
+        .matematica .topic-card {
+            border-left-color: var(--matematica);
+        }
+        
+        .portugues .topic-card {
+            border-left-color: var(--portugues);
+        }
+        
+        .ciencias .topic-card {
+            border-left-color: var(--ciencias);
+        }
+        
+        .topic-title {
+            font-size: 1.2rem;
+            margin-bottom: 0.8rem;
+            color: #2c3e50;
+        }
+        
+        .topic-content {
+            color: #555;
+        }
+        
+        .exercicios {
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #eee;
+        }
+        
+        .exercicio {
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .exercicio h3 {
+            margin-bottom: 1rem;
+        }
+        
+        .alternativas {
+            margin: 1rem 0;
+        }
+        
+        .alternativa {
+            margin-bottom: 0.5rem;
+        }
+        
+        .btn-verificar {
+            background-color: var(--destaque);
+            color: #333;
+            border: none;
+            padding: 0.7rem 1.5rem;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-verificar:hover {
+            background-color: #f39c12;
+        }
+        
+        .resultado {
+            margin-top: 1rem;
+            padding: 0.8rem;
+            border-radius: 5px;
+            display: none;
+        }
+        
+        .correto {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        
+        .incorreto {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            .nav-container {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .nav-btn {
+                width: 80%;
+                margin: 0.3rem 0;
+            }
+            
+            .topics-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Site de Estudo</h1>
+        <p class="subtitle">Revisão de Matemática, Português e Ciências</p>
+    </header>
+    
+    <nav>
+        <div class="nav-container">
+            <button class="nav-btn matematica" onclick="mostrarMateria('matematica')">Matemática</button>
+            <button class="nav-btn portugues" onclick="mostrarMateria('portugues')">Português</button>
+            <button class="nav-btn ciencias" onclick="mostrarMateria('ciencias')">Ciências</button>
+        </div>
+    </nav>
+    
+    <main>
+        <!-- Seção de Matemática -->
+        <section id="matematica" class="materia-section materia-matematica active">
+            <div class="materia-header">
+                <div class="materia-icon">➗</div>
+                <h2 class="materia-title">Matemática</h2>
+            </div>
+            
+            <div class="topics-grid matematica">
+                <div class="topic-card">
+                    <h3 class="topic-title">Operações Básicas</h3>
+                    <div class="topic-content">
+                        <p>As quatro operações fundamentais: adição, subtração, multiplicação e divisão.</p>
+                        <p><strong>Exemplo:</strong> 15 + 7 = 22, 9 × 6 = 54</p>
+                    </div>
+                </div>
+                
+                <div class="topic-card">
+                    <h3 class="topic-title">Frações</h3>
+                    <div class="topic-content">
+                        <p>Representação de partes de um todo. Soma: denominadores iguais.</p>
+                        <p><strong>Exemplo:</strong> 1/2 + 1/4 = 2/4 + 1/4 = 3/4</p>
+                    </div>
+                </div>
+                
+                <div class="topic-card">
+                    <h3 class="topic-title">Porcentagem</h3>
+                    <div class="topic-content">
+                        <p>Razão com denominador 100. Para calcular: valor × porcentagem ÷ 100.</p>
+                        <p><strong>Exemplo:</strong> 20% de 80 = 80 × 20 ÷ 100 = 16</p>
+                    </div>
+                </div>
+                
+                <div class="topic-card">
+                    <h3 class="topic-title">Geometria Básica</h3>
+                    <div class="topic-content">
+                        <p>Área do quadrado: lado × lado. Área do retângulo: base × altura.</p>
+                        <p><strong>Exemplo:</strong> Quadrado de lado 5cm: área = 5 × 5 = 25cm²</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="exercicios">
+                <h3>Exercícios de Matemática</h3>
+                
+                <div class="exercicio">
+                    <p>Qual é o resultado de 45 ÷ 9 + 7 × 2?</p>
+                    <div class="alternativas">
+                        <div class="alternativa">
+                            <input type="radio" name="math1" value="a"> a) 15
+                        </div>
+                        <div class="alternativa">
+                            <input type="radio" name="math1" value="b"> b) 19
+                        </div>
+                        <div class="alternativa">
+                            <input type="radio" name="math1" value="c"> c) 23
+                        </div>
+                    </div>
+                    <button class="btn-verificar" onclick="verificarResposta('math1', 'b')">Verificar Resposta</button>
+                    <div class="resultado" id="resultado-math1"></div>
+                </div>
+                
+                <div class="exercicio">
+                    <p>Se um produto custa R$ 80,00 e tem 15% de desconto, qual será o novo preço?</p>
+                    <div class="alternativas">
+                        <div class="alternativa">
+                            <input type="radio" name="math2" value="a"> a) R$ 65,00
+                        </div>
+                        <div class="alternativa">
+                            <input type="radio" name="math2" value="b"> b) R$ 68,00
+                        </div>
+                        <div class="alternativa">
+                            <input type="radio" name="math2" value="c"> c) R$ 72,00
+                        </div>
+                    </div>
+                    <button class="btn-verificar" onclick="verificarResposta('math2', 'b')">Verificar Resposta</button>
+                    <div class="resultado" id="resultado-math2"></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Seção de Português -->
+        <section id="portugues" class="materia-section materia-portugues">
+            <div class="materia-header">
+                <div class="materia-icon">📚</div>
+                <h2 class="materia-title">Português</h2>
+            </div>
+            
+            <div class="topics-grid portugues">
+                <div class="topic-card">
+                    <h3 class="topic-title">Classes Gramaticais</h3>
+                    <div class="topic-content">
+                        <p>Substantivo: nome de seres, objetos, etc. Verbo: indica ação, estado.</p>
+                        <p><strong>Exemplo:</strong> "Casa" (substantivo), "correr" (verbo)</p>
+                    </div>
+                </div>
+                
+                <div class="topic-card">
+                    <h3 class="topic-title">Sujeito e Predicado</h3>
+                    <div class="topic-content">
+                        <p>Sujeito: de quem se fala. Predicado: o que se diz sobre o sujeito.</p>
+                        <p><strong>Exemplo:</strong> "O menino (sujeito) brinca no parque (predicado)"</p>
+                    </div>
+                </div>
+                
+                <div class="topic-card">
+                    <h3 class="topic-title">Concordância Verbal</h3>
+                    <div class="topic-content">
+                        <p>Verbo concorda em número e pessoa com o sujeito.</p>
+                        <p><strong>Exemplo:</strong> "Eu estudo" / "Nós estudamos"</p>
+                    </div>
+                </div>
+                
+                <div class="topic-card">
+                    <h3 class="topic-title">Pontuação</h3>
+                    <div class="topic-content">
+                        <p>Vírgula separa elementos. Ponto final encerra frases.</p>
+                        <p><strong>Exemplo:</strong> "Ana, Pedro e Maria foram ao cinema."</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="exercicios">
+                <h3>Exercícios de Português</h3>
+                
+                <div class="exercicio">
+                    <p>Qual alternativa apresenta sujeito composto?</p>
+                    <div class="alternativas">
+                        <div class="alternativa">
+                            <input type="radio" name="port1" value="a"> a) O cachorro late.
+                        </div>
+                        <div class="alternativa">
+                            <input type="radio" name="port1" value="b"> b) Maria e João estudam.
+                        </div>
+                        <div class="alternativa">
+                            <input type="radio" name="port1" value="c"> c) Choveu muito.
+                        </div>
+                    </div>
+                    <button class="btn-verificar" onclick="verificarResposta('port1', 'b')">Verificar Resposta</button>
+                    <div class="resultado" id="resultado-port1"></div>
+                </div>
+                
+                <div class="exercicio">
+                    <p>Assinale a frase com concordância verbal correta:</p>
+                    <div class="alternativas">
+                        <div class="alternativa">
+                            <input type="radio" name="port2" value="a"> a) Os alunos faz a prova.
+                        </div>
+                        <div class="alternativa">
+                            <input type="radio" name="port2" value="b"> b) Os alunos fazem a prova.
+                        </div>
+                        <div class="alternativa">
+                            <input type="radio" name="port2" value="c"> c) Os alunos fazemos a prova.
+                        </div>
+                    </div>
+                    <button class="btn-verificar" onclick="verificarResposta('port2', 'b')">Verificar Resposta</button>
+                    <div class="resultado" id="resultado-port2"></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Seção de Ciências -->
+        <section id="ciencias" class="materia-section materia-ciencias">
+            <div class="materia-header">
+                <div class="materia-icon">🔬</div>
+                <h2 class="materia-title">Ciências</h2>
+            </div>
+            
+            <div class="topics-grid ciencias">
+                <div class="topic-card">
+                    <h3 class="topic-title">Sistema Solar</h3>
+                    <div class="topic-content">
+                        <p>Conjunto de planetas que orbitam o Sol. Terra: 3º planeta.</p>
+                        <p><strong>Exemplo:</strong> Mercúrio, Vênus, Terra, Marte, Júpiter, Saturno, Urano, Netuno</p>
+                    </div>
+                </div>
+                
+                <div class="topic-card">
+                    <h3 class="topic-title">Cadeia Alimentar</h3>
+                    <div class="topic-content">
+                        <p>Relação de alimentação entre seres vivos. Produtores → consumidores.</p>
+                        <p><strong>Exemplo:</strong> Planta → coelho → raposa</p>
+                    </div>
+                </div>
+                
+                <div class="topic-card">
+                    <h3 class="topic-title">Estados da Matéria</h3>
+                    <div class="topic-content">
+                        <p>Sólido: forma definida. Líquido: forma do recipiente. Gasoso: sem forma.</p>
+                        <p><strong>Exemplo:</strong> Gelo (sólido), água (líquido), vapor (gasoso)</p>
+                    </div>
+                </div>
+                
+                <div class="topic-card">
+                    <h3 class="topic-title">Sistema Digestório</h3>
+                    <div class="topic-content">
+                        <p>Processa alimentos. Boca → esôfago → estômago → intestinos.</p>
+                        <p><strong>Exemplo:</strong> Digestão começa na boca com a saliva.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="exercicios">
+                <h3>Exercícios de Ciências</h3>
+                
+                <div class="exercicio">
+                    <p>Qual é o planeta conhecido como "planeta vermelho"?</p>
+                    <div class="alternativas">
+                        <div class="alternativa">
+                            <input type="radio" name="cien1" value="a"> a) Vênus
+                        </div>
+                        <div class="alternativa">
+                            <input type="radio" name="cien1" value="b"> b) Marte
+                        </div>
+                        <div class="alternativa">
+                            <input type="radio" name="cien1" value="c"> c) Júpiter
+                        </div>
+                    </div>
+                    <button class="btn-verificar" onclick="verificarResposta('cien1', 'b')">Verificar Resposta</button>
+                    <div class="resultado" id="resultado-cien1"></div>
+                </div>
+                
+                <div class="exercicio">
+                    <p>Na cadeia alimentar, as plantas são consideradas:</p>
+                    <div class="alternativas">
+                        <div class="alternativa">
+                            <input type="radio" name="cien2" value="a"> a) Consumidores
+                        </div>
+                        <div class="alternativa">
+                            <input type="radio" name="cien2" value="b"> b) Produtores
+                        </div>
+                        <div class="alternativa">
+                            <input type="radio" name="cien2" value="c"> c) Decompositores
+                        </div>
+                    </div>
+                    <button class="btn-verificar" onclick="verificarResposta('cien2', 'b')">Verificar Resposta</button>
+                    <div class="resultado" id="resultado-cien2"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Site de Estudo - Revisão de Conteúdos &copy; 2023</p>
+    </footer>
+    
+    <script>
+        function mostrarMateria(materia) {
+            // Esconde todas as seções
+            document.querySelectorAll('.materia-section').forEach(section => {
+                section.classList.remove('active');
+            });
+            
+            // Mostra a seção selecionada
+            document.getElementById(materia).classList.add('active');
+        }
+        
+        function verificarResposta(perguntaId, respostaCorreta) {
+            const opcoes = document.getElementsByName(perguntaId);
+            let respostaSelecionada = '';
+            
+            // Encontra a resposta selecionada
+            for (const op
